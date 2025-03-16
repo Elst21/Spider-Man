@@ -1,1 +1,44 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.bio {
+    font-size: 18px; 
+    color: black; 
+    line-height: 1.6; 
+    margin: 10px 0;
+    padding: 10px; 
+    background-color: whitesmoke; 
+    border-left: 4px solid gray; 
+}
+
+.description {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#save-world-btn {
+    background-color:red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px; 
+}
+
+#save-world-btn:hover {
+    background-color: darkred;
+}
+#hero-img {
+    display: block;
+    max-width: 100%; 
+    height: auto; 
+    margin: 20px auto; 
+    border: 2px solid #3498db; 
+    border-radius: 8px; 
+}
 
